@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_text_main_width">112dp</dimen>
+    <dimen name="edit_text_main_height">94dp</dimen>
+
+    <dimen name="edit_text_main_margintop">84dp</dimen>
+    <dimen name="text_view_main_width">153dp</dimen>
+    <dimen name="text_view_main_hieght">69dp</dimen>
+    <dimen name="text_view_main_marinstart">128dp</dimen>
+    <dimen name="text_view_main_margintop">56dp</dimen>
+    <dimen name="button_main_marginstart">160dp</dimen>
+    <dimen name="button_main_margintop">52dp</dimen>
+    <dimen name="edit_text_main2_width">112dp</dimen>
+    <dimen name="edit_text_main2_height">94dp</dimen>
+    <dimen name="edit_text_main2_margin">168dp</dimen>
+    <dimen name="edit_text_main2_margintop">236dp</dimen>
+    <dimen name="edit_text_main_marginstart">160dp</dimen>
+    <dimen name="button_main2_marginstart">40dp</dimen>
+    <dimen name="button_main2_margintop">52dp</dimen>
+    <dimen name="button5_main_marginstart">280dp</dimen>
+</resources>

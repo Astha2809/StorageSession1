@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">StorageSession1</string>
+    <string name="edit_text_text">enter text</string>
+    <string name="retrieve">Retrieve</string>
+    <string name="submit">Submit</string>
+    <string name="question2">Question2</string>
+    <string name="read">Read</string>
+    <string name="write">Write</string>
+</resources>
