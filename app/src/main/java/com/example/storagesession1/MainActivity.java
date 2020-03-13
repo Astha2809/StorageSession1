@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private Button submit;
     private Button retrieve;
     private Button question2;
+    public static final String USER_NAME="user name";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,14 +60,14 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences sharedPreferences = getSharedPreferences("info", MODE_PRIVATE);//so no other app can access
         // our data
         SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putString("username", editText.getText().toString());
+        editor.putString(USER_NAME, editText.getText().toString());
         editor.apply();
         Toast.makeText(MainActivity.this, "Data Saved", Toast.LENGTH_SHORT).show();
     }
 
     void retreiveData() {
         SharedPreferences sharedPreferences = getSharedPreferences("info", MODE_PRIVATE);
-        String name = sharedPreferences.getString("username", " ");
+        String name = sharedPreferences.getString(USER_NAME, " ");
         textView.setText(name);
     }
 
